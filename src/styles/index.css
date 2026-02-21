@@ -9,3 +9,7 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    width: 1000px;
+    text-align: center;
+}

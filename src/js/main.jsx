@@ -10,9 +10,17 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
+import LogIn from './components/LogIn';
+import StaffRegistry from './components/Forms/StaffRegistry';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <div className='bg-black'>
+    <StaffRegistry/>
+    {/* <LogIn/> */}
+
+    </div>
+    
   </React.StrictMode>,
 )
